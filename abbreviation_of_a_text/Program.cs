@@ -38,5 +38,10 @@ class Abbreviation
         Console.ReadLine();
     }
 
-
+    public static void Main()
+    {
+        Abbreviation obj = new Abbreviation();
+        obj.Readdata();
+        obj.Abbre();
+    }
 }
